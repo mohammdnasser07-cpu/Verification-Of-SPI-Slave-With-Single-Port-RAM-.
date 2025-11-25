@@ -1,0 +1,397 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /top/DUT/checker_inst
+=== Design Unit: work.alsu_sva
+=================================================================================
+
+Assertion Coverage:
+    Assertions                      19        19         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/top/DUT/checker_inst/assert_rst
+                     ALSU_SVA.sv(29)                    0          1
+/top/DUT/checker_inst/bypass_A_bypass_B_1_assert
+                     ALSU_SVA.sv(39)                    0          1
+/top/DUT/checker_inst/bypass_A_assert
+                     ALSU_SVA.sv(47)                    0          1
+/top/DUT/checker_inst/bypass_B_assert
+                     ALSU_SVA.sv(51)                    0          1
+/top/DUT/checker_inst/invalid_assert
+                     ALSU_SVA.sv(55)                    0          1
+/top/DUT/checker_inst/OPcode0_1_assert
+                     ALSU_SVA.sv(59)                    0          1
+/top/DUT/checker_inst/OPcode0_3_assert
+                     ALSU_SVA.sv(65)                    0          1
+/top/DUT/checker_inst/OPcode0_4_assert
+                     ALSU_SVA.sv(68)                    0          1
+/top/DUT/checker_inst/OPcode0_5_assert
+                     ALSU_SVA.sv(71)                    0          1
+/top/DUT/checker_inst/OPcode1_1_assert
+                     ALSU_SVA.sv(76)                    0          1
+/top/DUT/checker_inst/OPcode1_3_assert
+                     ALSU_SVA.sv(82)                    0          1
+/top/DUT/checker_inst/OPcode1_4_assert
+                     ALSU_SVA.sv(85)                    0          1
+/top/DUT/checker_inst/OPcode1_5_assert
+                     ALSU_SVA.sv(88)                    0          1
+/top/DUT/checker_inst/OPcode2_1_assert
+                     ALSU_SVA.sv(93)                    0          1
+/top/DUT/checker_inst/OPcode2_3_assert
+                     ALSU_SVA.sv(100)                   0          1
+/top/DUT/checker_inst/OPcode4_1_assert
+                     ALSU_SVA.sv(104)                   0          1
+/top/DUT/checker_inst/OPcode4_2_assert
+                     ALSU_SVA.sv(107)                   0          1
+/top/DUT/checker_inst/OPcode5_1_assert
+                     ALSU_SVA.sv(111)                   0          1
+/top/DUT/checker_inst/OPcode5_2_assert
+                     ALSU_SVA.sv(114)                   0          1
+
+Directive Coverage:
+    Directives                      19        19         0   100.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/top/DUT/checker_inst/cover_rst          alsu_sva Verilog  SVA  ALSU_SVA.sv(34)  472 Covered   
+/top/DUT/checker_inst/bypass_A_bypass_B_1_cover 
+                                         alsu_sva Verilog  SVA  ALSU_SVA.sv(40)  110 Covered   
+/top/DUT/checker_inst/bypass_A_cover     alsu_sva Verilog  SVA  ALSU_SVA.sv(48)  783 Covered   
+/top/DUT/checker_inst/bypass_B_cover     alsu_sva Verilog  SVA  ALSU_SVA.sv(52)  724 Covered   
+/top/DUT/checker_inst/invalid_cover      alsu_sva Verilog  SVA  ALSU_SVA.sv(56) 1622 Covered   
+/top/DUT/checker_inst/OPcode0_1_cover    alsu_sva Verilog  SVA  ALSU_SVA.sv(60)   71 Covered   
+/top/DUT/checker_inst/OPcode0_3_cover    alsu_sva Verilog  SVA  ALSU_SVA.sv(66)   43 Covered   
+/top/DUT/checker_inst/OPcode0_4_cover    alsu_sva Verilog  SVA  ALSU_SVA.sv(69)   47 Covered   
+/top/DUT/checker_inst/OPcode0_5_cover    alsu_sva Verilog  SVA  ALSU_SVA.sv(72)  224 Covered   
+/top/DUT/checker_inst/OPcode1_1_cover    alsu_sva Verilog  SVA  ALSU_SVA.sv(77)   77 Covered   
+/top/DUT/checker_inst/OPcode1_3_cover    alsu_sva Verilog  SVA  ALSU_SVA.sv(83)   39 Covered   
+/top/DUT/checker_inst/OPcode1_4_cover    alsu_sva Verilog  SVA  ALSU_SVA.sv(86)   46 Covered   
+/top/DUT/checker_inst/OPcode1_5_cover    alsu_sva Verilog  SVA  ALSU_SVA.sv(89)  282 Covered   
+/top/DUT/checker_inst/OPcode2_1_cover    alsu_sva Verilog  SVA  ALSU_SVA.sv(94)  207 Covered   
+/top/DUT/checker_inst/OPcode2_3_cover    alsu_sva Verilog  SVA  ALSU_SVA.sv(101) 188 Covered   
+/top/DUT/checker_inst/OPcode4_1_cover    alsu_sva Verilog  SVA  ALSU_SVA.sv(105) 156 Covered   
+/top/DUT/checker_inst/OPcode4_2_cover    alsu_sva Verilog  SVA  ALSU_SVA.sv(108) 147 Covered   
+/top/DUT/checker_inst/OPcode5_1_cover    alsu_sva Verilog  SVA  ALSU_SVA.sv(112) 133 Covered   
+/top/DUT/checker_inst/OPcode5_2_cover    alsu_sva Verilog  SVA  ALSU_SVA.sv(115) 126 Covered   
+
+=================================================================================
+=== Instance: /main_sequence
+=== Design Unit: work.main_sequence
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       1         1         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/main_sequence/alsu_main_seq/body/#ublk#252445301#17/immed__19
+                     main_seq_pkg.sv(19)                0          1
+
+=================================================================================
+=== Instance: /cov_pkg
+=== Design Unit: work.cov_pkg
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na   100.00%
+        Coverpoints/Crosses         15        na        na        na
+            Covergroup Bins         29        29         0   100.00%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /cov_pkg/alsu_coverage/CovCode                  100.00%        100          -    Covered              
+    covered/total bins:                                    29         29          -                      
+    missing/total bins:                                     0         29          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint A_cp                                   100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin A_data_0                                     1874          1          -    Covered              
+        bin A_data_max                                    987          1          -    Covered              
+        bin A_data_walkingones[1]                         584          1          -    Covered              
+        bin A_data_walkingones[2]                         549          1          -    Covered              
+        bin A_data_walkingones[3]                         143          1          -    Covered              
+        default bin A_data_default                       4348                     -    Occurred             
+    Coverpoint B_cp                                   100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin B_data_0                                     3253          1          -    Covered              
+        bin B_data_max                                    922          1          -    Covered              
+        bin B_data_walkingones[1]                         226          1          -    Covered              
+        bin B_data_walkingones[2]                         245          1          -    Covered              
+        bin B_data_walkingones[3]                          56          1          -    Covered              
+        default bin B_data_default                       3658                     -    Occurred             
+    Coverpoint ALU_cp                                 100.00%        100          -    Covered              
+        covered/total bins:                                 7          7          -                      
+        missing/total bins:                                 0          7          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Bins_shift[SHIFT]                            1677          1          -    Covered              
+        bin Bins_shift[ROTATE]                           1632          1          -    Covered              
+        bin Bins_arith[ADD]                              1688          1          -    Covered              
+        bin Bins_arith[MULT]                             1656          1          -    Covered              
+        bin Bins_bitwise[OR]                             1626          1          -    Covered              
+        bin Bins_bitwise[XOR]                            1653          1          -    Covered              
+        bin Bins_invalid                                   69          1          -    Covered              
+    Coverpoint cin_cp                                 100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin cin_bin                                     10001          1          -    Covered              
+    Coverpoint direction_cp                           100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin direction_bin                               10001          1          -    Covered              
+    Coverpoint serial_in_cp                           100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin serial_in_bin                               10001          1          -    Covered              
+    Coverpoint red_op_A_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin red_op_A_bin                                10001          1          -    Covered              
+    Coverpoint red_op_B_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin red_op_B_bin                                10001          1          -    Covered              
+    Cross ALU_cp__A_cp__B_cp1                         100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin ALSUbin1                                  288          1          -    Covered              
+    Cross ALU_cp__cin_cp2                             100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin ALSUbin2                                 1688          1          -    Covered              
+    Cross ALU_cp__direction_cp3                       100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin ALSUbin3                                 3309          1          -    Covered              
+    Cross ALU_cp__serial_in4                          100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin ALSUbin4                                 1677          1          -    Covered              
+    Cross ALU_cp__A_cp__B_cp5                         100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin ALSUbin5                                  423          1          -    Covered              
+    Cross ALU_cp__A_cp__B_cp6                         100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin ALSUbin6                                  181          1          -    Covered              
+    Cross ALU_cp__red_op_A__red_op_A_cp7              100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin ALSUbin7                                 6722          1          -    Covered              
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /cov_pkg/alsu_coverage/CovCode                  100.00%        100          -    Covered              
+    covered/total bins:                                    29         29          -                      
+    missing/total bins:                                     0         29          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint A_cp                                   100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin A_data_0                                     1874          1          -    Covered              
+        bin A_data_max                                    987          1          -    Covered              
+        bin A_data_walkingones[1]                         584          1          -    Covered              
+        bin A_data_walkingones[2]                         549          1          -    Covered              
+        bin A_data_walkingones[3]                         143          1          -    Covered              
+        default bin A_data_default                       4348                     -    Occurred             
+    Coverpoint B_cp                                   100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin B_data_0                                     3253          1          -    Covered              
+        bin B_data_max                                    922          1          -    Covered              
+        bin B_data_walkingones[1]                         226          1          -    Covered              
+        bin B_data_walkingones[2]                         245          1          -    Covered              
+        bin B_data_walkingones[3]                          56          1          -    Covered              
+        default bin B_data_default                       3658                     -    Occurred             
+    Coverpoint ALU_cp                                 100.00%        100          -    Covered              
+        covered/total bins:                                 7          7          -                      
+        missing/total bins:                                 0          7          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Bins_shift[SHIFT]                            1677          1          -    Covered              
+        bin Bins_shift[ROTATE]                           1632          1          -    Covered              
+        bin Bins_arith[ADD]                              1688          1          -    Covered              
+        bin Bins_arith[MULT]                             1656          1          -    Covered              
+        bin Bins_bitwise[OR]                             1626          1          -    Covered              
+        bin Bins_bitwise[XOR]                            1653          1          -    Covered              
+        bin Bins_invalid                                   69          1          -    Covered              
+    Coverpoint cin_cp                                 100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin cin_bin                                     10001          1          -    Covered              
+    Coverpoint direction_cp                           100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin direction_bin                               10001          1          -    Covered              
+    Coverpoint serial_in_cp                           100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin serial_in_bin                               10001          1          -    Covered              
+    Coverpoint red_op_A_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin red_op_A_bin                                10001          1          -    Covered              
+    Coverpoint red_op_B_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin red_op_B_bin                                10001          1          -    Covered              
+    Cross ALU_cp__A_cp__B_cp1                         100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin ALSUbin1                                  288          1          -    Covered              
+    Cross ALU_cp__cin_cp2                             100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin ALSUbin2                                 1688          1          -    Covered              
+    Cross ALU_cp__direction_cp3                       100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin ALSUbin3                                 3309          1          -    Covered              
+    Cross ALU_cp__serial_in4                          100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin ALSUbin4                                 1677          1          -    Covered              
+    Cross ALU_cp__A_cp__B_cp5                         100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin ALSUbin5                                  423          1          -    Covered              
+    Cross ALU_cp__A_cp__B_cp6                         100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin ALSUbin6                                  181          1          -    Covered              
+    Cross ALU_cp__red_op_A__red_op_A_cp7              100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin ALSUbin7                                 6722          1          -    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/top/DUT/checker_inst/cover_rst          alsu_sva Verilog  SVA  ALSU_SVA.sv(34)  472 Covered   
+/top/DUT/checker_inst/bypass_A_bypass_B_1_cover 
+                                         alsu_sva Verilog  SVA  ALSU_SVA.sv(40)  110 Covered   
+/top/DUT/checker_inst/bypass_A_cover     alsu_sva Verilog  SVA  ALSU_SVA.sv(48)  783 Covered   
+/top/DUT/checker_inst/bypass_B_cover     alsu_sva Verilog  SVA  ALSU_SVA.sv(52)  724 Covered   
+/top/DUT/checker_inst/invalid_cover      alsu_sva Verilog  SVA  ALSU_SVA.sv(56) 1622 Covered   
+/top/DUT/checker_inst/OPcode0_1_cover    alsu_sva Verilog  SVA  ALSU_SVA.sv(60)   71 Covered   
+/top/DUT/checker_inst/OPcode0_3_cover    alsu_sva Verilog  SVA  ALSU_SVA.sv(66)   43 Covered   
+/top/DUT/checker_inst/OPcode0_4_cover    alsu_sva Verilog  SVA  ALSU_SVA.sv(69)   47 Covered   
+/top/DUT/checker_inst/OPcode0_5_cover    alsu_sva Verilog  SVA  ALSU_SVA.sv(72)  224 Covered   
+/top/DUT/checker_inst/OPcode1_1_cover    alsu_sva Verilog  SVA  ALSU_SVA.sv(77)   77 Covered   
+/top/DUT/checker_inst/OPcode1_3_cover    alsu_sva Verilog  SVA  ALSU_SVA.sv(83)   39 Covered   
+/top/DUT/checker_inst/OPcode1_4_cover    alsu_sva Verilog  SVA  ALSU_SVA.sv(86)   46 Covered   
+/top/DUT/checker_inst/OPcode1_5_cover    alsu_sva Verilog  SVA  ALSU_SVA.sv(89)  282 Covered   
+/top/DUT/checker_inst/OPcode2_1_cover    alsu_sva Verilog  SVA  ALSU_SVA.sv(94)  207 Covered   
+/top/DUT/checker_inst/OPcode2_3_cover    alsu_sva Verilog  SVA  ALSU_SVA.sv(101) 188 Covered   
+/top/DUT/checker_inst/OPcode4_1_cover    alsu_sva Verilog  SVA  ALSU_SVA.sv(105) 156 Covered   
+/top/DUT/checker_inst/OPcode4_2_cover    alsu_sva Verilog  SVA  ALSU_SVA.sv(108) 147 Covered   
+/top/DUT/checker_inst/OPcode5_1_cover    alsu_sva Verilog  SVA  ALSU_SVA.sv(112) 133 Covered   
+/top/DUT/checker_inst/OPcode5_2_cover    alsu_sva Verilog  SVA  ALSU_SVA.sv(115) 126 Covered   
+
+TOTAL DIRECTIVE COVERAGE: 100.00%  COVERS: 19
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/top/DUT/checker_inst/assert_rst
+                     ALSU_SVA.sv(29)                    0          1
+/top/DUT/checker_inst/bypass_A_bypass_B_1_assert
+                     ALSU_SVA.sv(39)                    0          1
+/top/DUT/checker_inst/bypass_A_assert
+                     ALSU_SVA.sv(47)                    0          1
+/top/DUT/checker_inst/bypass_B_assert
+                     ALSU_SVA.sv(51)                    0          1
+/top/DUT/checker_inst/invalid_assert
+                     ALSU_SVA.sv(55)                    0          1
+/top/DUT/checker_inst/OPcode0_1_assert
+                     ALSU_SVA.sv(59)                    0          1
+/top/DUT/checker_inst/OPcode0_3_assert
+                     ALSU_SVA.sv(65)                    0          1
+/top/DUT/checker_inst/OPcode0_4_assert
+                     ALSU_SVA.sv(68)                    0          1
+/top/DUT/checker_inst/OPcode0_5_assert
+                     ALSU_SVA.sv(71)                    0          1
+/top/DUT/checker_inst/OPcode1_1_assert
+                     ALSU_SVA.sv(76)                    0          1
+/top/DUT/checker_inst/OPcode1_3_assert
+                     ALSU_SVA.sv(82)                    0          1
+/top/DUT/checker_inst/OPcode1_4_assert
+                     ALSU_SVA.sv(85)                    0          1
+/top/DUT/checker_inst/OPcode1_5_assert
+                     ALSU_SVA.sv(88)                    0          1
+/top/DUT/checker_inst/OPcode2_1_assert
+                     ALSU_SVA.sv(93)                    0          1
+/top/DUT/checker_inst/OPcode2_3_assert
+                     ALSU_SVA.sv(100)                   0          1
+/top/DUT/checker_inst/OPcode4_1_assert
+                     ALSU_SVA.sv(104)                   0          1
+/top/DUT/checker_inst/OPcode4_2_assert
+                     ALSU_SVA.sv(107)                   0          1
+/top/DUT/checker_inst/OPcode5_1_assert
+                     ALSU_SVA.sv(111)                   0          1
+/top/DUT/checker_inst/OPcode5_2_assert
+                     ALSU_SVA.sv(114)                   0          1
+/main_sequence/alsu_main_seq/body/#ublk#252445301#17/immed__19
+                     main_seq_pkg.sv(19)                0          1
+
+Total Coverage By Instance (filtered view): 100.00%
+
