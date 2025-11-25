@@ -1,0 +1,12 @@
+Tue Oct 14 01:19:28 +0300 2025
+Trace back: bad event type or keysym "??"
+    while executing
+"event generate .main_pane.transcript.interior.cs.body.t <Meta-Key-??>"
+    invoked from within
+"if {[string length ??] > 0 && 
+				![regexp {.+_[LR]$} "??"]} {
+				event generate .main_pane.transcript.interior.cs.body.t <Meta-Key-??>
+			}"
+    (command bound to event)
+  <2:C:/questasim64_2021.1/win64/tk8.6/bgerror.tcl:106: ::tkerror {bad event type or keysym "??"}
+  <1:eval:1: ::tk::dialog::error::bgerror {bad event type or keysym "??"}
